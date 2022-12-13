@@ -26,8 +26,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;    
+    padding-left: 5%;
+    padding-right: 5%;    
 }
 
 .logo{
@@ -37,10 +37,8 @@ nav{
     cursor: pointer;
 }
 span{
-    color: rgba(106,91,226,1);
+    color: rgb(106, 91, 226);
 }
-
-
 nav ul li{
     list-style-type: none;
     display: inline-block;
@@ -68,14 +66,15 @@ nav ul li a:hover{
     color: #F0F0F0;
 }
 .btn:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 
 .content{
     position: absolute;
     top: 50%;
-    left: 8%;
+    left: 3%;
+    width: 1000px ;
     transform: translateY(-50%);
 }
 h1{
@@ -127,11 +126,37 @@ h4{
     right: 6px;
 }
 
+
+.buttonsuite{
+    position: relative;
+    align-items: center;
+    
+
+    background-color: rgba(106,91,226,1);
+    color:#000;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.buttonsuite:hover{
+    background-color: transparent;
+    border: 2px solid  rgba(106,91,226,1);
+    color:#F0F0F0;
+    cursor: pointer;
+}
+
+
+
+
+
         /*Section a propos*/
 
 
 .about{
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     padding: 10 0px; 
     background-color: #101010;
@@ -189,12 +214,12 @@ button:hover{
     cursor: pointer;
 }
 
-    /*section compétence*/
+    /*section compétences*/
 
 .service{
     background: #000;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     padding: 100px 0px;
 }
 .title h2{
@@ -258,14 +283,155 @@ h5{
     /*section Experiences*/
 
 .experiences{
-    background: #191919;
+    background: #101010;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     padding: 100px 0px;
+}
+.title h2{
+    color: #F0F0F0;;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.carrousel{
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+.card2{
+    height: 300px;
+    width: 500px;
+    padding: 20px 35px;
+    background: #000; 
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card2 i{
+    color: rgba(106,91,226,1);
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px; 
+}
+h5{
+    color: #F0F0F0;;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.card2 p{
+    color: #F0F0F0;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+text-align: justify;
+}
+
+.card2 p .CCCCF{
+        text-decoration: none;
+}
+
+.card2 .buttonCV{
+    background-color: rgba(106,91,226,1);
+    color: #F0F0F0;;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card2 .buttonCV:hover{
+    background-color: transparent;
+    border: 2px solid rgba(106,91,226,1);
+    cursor: pointer;
+}
+
+
+.dl{
+    text-decoration: none;
+    color: rgb(106, 91, 226);
 }
 
 
 
+    /*section formations*/
+
+.formation{
+    height: 100vh;
+    width: 100%;
+    padding: 10 0px; 
+    background-color: #000;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+    justify-content: space-around;
+}
+
+
+.formation img{
+    position: relative;
+    left:60%;
+    height: auto;
+    width: 500px;
+}
+.formation-text{
+    position: relative;
+    right:40%;
+    width: 550px;
+}
+.formation-text h2{
+    color: #F0F0F0;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.formation-text h5{
+    color: #F0F0F0;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.formation-text p{
+    color: #FFE6E7;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+
+.buttonf{
+    background-color: rgba(106,91,226,1);
+    color:#000;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.buttonf:hover{
+    background-color: transparent;
+    border: 2px solid  rgba(106,91,226,1);
+    color:#F0F0F0;
+    cursor: pointer;
+}
 
     /*Contact me*/
 
