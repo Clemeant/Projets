@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>deviner le nombre</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
@@ -12,21 +13,25 @@
 <legend>Génération</legend>
 
     <input type="number" id="min" value="1" min="1" max="10">
-    <input type="number" id="max" value="1" max="10" max="10"></br>
+    <input type="number" id="max" value="10" max="10" max="10"></br>
     <input type="number" id="nbessaies" value="3" min="1" max="6">
     
-    <button type="button">Générer</button>
+    <button id="bt-gen">Générer</button>
 
 </fieldset>
 
 <fieldset id="step2">
 <legend>Proposition</legend>
 
-    <input type="number" id="event" value="click"> 
+    <input type="number" id="propo" value="click"> 
     
-    <button type="button">Go</button>
+    <div id="reponse">Vous n'avez fait aucune proposition </div>
+
+    <button id="go">Go</button>
 
 </fieldset>
+
+<script src="script-deviner.js"></script>
 
 
 </body>
