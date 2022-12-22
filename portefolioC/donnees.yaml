@@ -1,0 +1,122 @@
+
+    ###--acceuil--###
+logo: 
+    1: Portfo
+    2: lio
+
+navbar: 
+    1: 
+      - Accueil
+      - "#acc"
+    2:
+      - A Propos
+      - "#apropos"
+    3: 
+      - Compétences
+      - "#comp"
+    4: 
+      - Experiences
+      - "#exp"
+    5: 
+      - Formations
+      - "#for"
+    6: 
+      - Contact
+      - "#sub"
+
+intro:
+    text1: Bonjour, je m'appel
+    prenom: Clément 
+    nom: Saint-Hilaire
+    text2: Et je suis un Developeur Web Junior
+
+    ###--a propos--###
+description:
+    1: A Propos
+    2: Developeur
+    3: " & Designer"
+    4: Actuellement étudiant à Caen, je fais mes débuts dans le monde du résaux, du design et du développement web. C'est pourquoi je met mes services à votre dispositon, dans le cadre de la création d'un site internet par exemple.
+
+    ###--titres--###
+title:
+    1: Compétences
+    2: Experiences
+    
+    ###--competences--###
+competence:
+  Developpement:
+      - nom: HTML 5
+        logo: fa-html5
+        niveau: 40
+      - nom: CSS 3
+        logo: fa-css3-alt
+        niveau: 40
+      - nom: PHP 8
+        logo: fa-php
+        niveau: 10
+      - nom: Yaml
+        logo: fa-y
+        niveau: 10
+  Langues:
+      - nom: Français
+        logo: fr
+        niveau: 90
+      - nom: Anglais
+        logo: en
+        niveau: 70
+      - nom: Italien
+        logo: it
+        niveau: 20
+      - nom: Japonais
+        logo: jp
+        niveau: 10
+        
+    ###--Experiences--###
+experiences:
+    a1: Alternant résaux & dev
+    a2: "Depuis Septembre 2022 j'occupe le poste d'alternant dans la communauté de communes "
+    a3: CoeurCôteFleurie
+    a4: . J'y réalise une serie de rôles, tel que le support utilisateurs, l'analyste cybersécurité, la mise à jour de bandes de sauvegardes et le développement de templates personalisés ou de projets sur demandes.
+    b1: Conseiller en Séjour
+    b2: "Lors de mes étés 2021 et 2022, j'ai occupé le poste de conseillé en séjour pour "
+    b3: Indeauville
+    b4: . Mon travail consistait en l'acceuil de personne, en la recommandation de visites, et lieu de visites, d'activitées personnalisées suivant le type de client.
+    c1: Serveur
+    c2: "Pendant mes étés de 2015 à 2020, j'ai eu la chance d'avoir pu travailer en temps que serveur dans le salon-de-thé-crêperie "
+    c3: Aux 3 Gourmands du Château
+    c4: . Je gérais bien évidement le service, mais également l'acceuil, la plonge, le dressage, et la confections des thés et cafés.
+    d1: Assistant Commissaire-Priseur
+    d2: "Après avoir été repéré un été par le commissaire-priseur James Fattori, j'ai pu en avril 2017 efféctuer un stage dans l'étude "
+    d3: Tradart
+    d4: . J'y ai appris à faire du secrétariat, mais surtout de l'assistance à l'estimation de pièces de vente.
+    e1: Assistant Avocat
+    e2: "En Octobre 2021, j'ai eu l'occasion d'effectuer un stage au  "
+    e3: Cabinet d'Avocats Mandataire au Tribunal de Commerce de Paris
+    e4: . Maître Philippe Jean-Pimor à pu m'emener dans plusieurs juridictions, assister à diverses séances. En plus de l'observation, j'y ai fais de l'assistance et du secrétariat.
+
+    ###--Formation--###
+formation:
+    1: Formations
+    2: Etudiant
+    3: " & Alternant"
+    4: à CaenSup Sainte-Ursule depuis septembre 2022, j'ai en même temps intégré la Communauté de communes Coeur Côte Fleurie en poste d'alternant pour 2 ans. Je m'y forme au support client, au développement web et d'applications personnalisées, en plus de la configuration résaux.
+    5: Sainte-Ursule
+    6: CoeurCôteFleurie
+    7 : CV.pdf
+
+    ###--contact--###
+contact:
+    1: Laissez-moi créer votre prochain site web !
+formulaire:
+    1: Contact
+    2: "Votre nom : " 
+    3: "Votre Entreprise : "
+    4: "Votre adresse-mail : "
+    5: "Objet du message :"
+    6:  "Contenu du message :"
+    7: Envoyer
+
+    ###--footer--###
+footer:
+    1: Vous pouvez également me contacter sur mes résaux sociaux.
+    2: made by csh

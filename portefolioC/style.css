@@ -1,0 +1,849 @@
+:root {
+    --violet : rgb(106, 91, 226);
+    --blanc : #F0F0F0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+        /*Section Acceuil*/
+
+
+.hero{
+    height: 100vh;
+    min-height: fit-content;
+    width: 100%;
+    background: url("images/image1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;    
+    padding-bottom: 20px;
+
+    background-color: #000;
+    z-index: 100;
+
+}
+
+.logo{
+    color: var(--blanc);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav i {
+    color: var(--violet);
+    font-size: 30px;
+}
+#bars{
+    display: none;
+}
+
+.hero .imagR img{
+    width: 80px;
+    height: 80px;
+
+    position: relative;  
+    display: none;
+
+}
+span{
+    color: var(--violet);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: var(--blanc);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color:var(--violet);
+    transition: .4s;
+}
+
+.btn{
+    text-decoration-line: none;
+    list-style: none;
+    background-color: var(--violet);
+    text-decoration: none ;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    color: var(--blanc);    
+}
+.btn:hover{
+    transform: scale(1.3);
+    color: var(--blanc) !important;
+}
+
+.content{
+    position: absolute;
+
+    top: 50%;
+    left: 3%;
+    width: 100%; 
+    height: fit;
+    transform: translateY(-50%);
+}
+h1{
+    padding-left: 5%;
+    color: var(--blanc);
+    margin: 20px 0 20px;
+    font-size: 75px;
+}
+.ejsdwj{
+    padding-left: 5%;
+    color: var(--blanc);
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+h4{
+    padding-top: 10%;
+    padding-left: 5%;
+    color: var(--blanc);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.none{
+    text-decoration: none;
+    color:var(--blanc);
+}
+
+        /*Section a propos*/
+
+.about{
+    height: 100vh;
+    min-height: fit-content;
+    width: 100%;
+    padding: 10 0px; 
+    background-color: #101010;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.about .main{
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    justify-content: space-around;
+
+   }
+.about .main .about-text h2{
+    color: var(--blanc);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about .main .about-text h5{
+    color: var(--blanc);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about .main .about-text p{
+    color: var(--blanc);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+    /*section compétences*/
+
+.competences{
+    background: #000;
+    width: 100%;
+    height: 100vh;
+    min-height: fit-content;
+    padding: 100px 0px;
+}
+.competences .title{
+    color: var(--blanc);
+    font-size: 75px;
+    font-weight: bold;
+    
+    text-align: center;
+}
+
+.competences h3{
+    padding-left: 5%;
+    color: var(--blanc);
+    font-size: 25px;
+    width: 300px;
+}
+.competences .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 20%;
+    margin-right: 5%;
+    padding-top: 5%;
+
+}
+.card{
+    width: 300px;
+    height: 200px;
+
+    padding: 0px 35px;
+    background: #191919; 
+    border-radius: 20px;
+    margin: 15px;
+    
+    overflow: hidden;
+    text-align: center;
+
+}
+.card i{
+    color: var(--violet);
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px; 
+}
+h5{
+    color: var(--blanc);
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: var(--violet);
+    font-size: 16px;
+    line-height: 27px;  
+    margin-bottom: 25px;
+}
+
+.pra input[type="range"]{
+    color: var(--violet);
+}
+
+.card .button{
+    background-color: var(--violet);
+    color: var(--blanc);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid var(--violet);
+    cursor: pointer;
+}
+
+.card i.fr{
+    background-image: url("images/france.png");
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+    color: var(--violet);
+
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.card i.en{
+    background-image: url("images/united-kingdom.png");
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+    color: var(--violet);
+
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.card i.it{
+    background-image: url("images/italy.png");
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+    color: var(--violet);
+
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.card i.jp{
+    background-image: url("images/japan.png");
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+    color: var(--violet);
+
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+    /*section Experiences*/
+
+.experiences{
+    background: #101010;
+    width: 100%;
+    height: 100vh;
+    min-height: fit-content;
+    padding: 100px 0px;
+}
+.experiences .title h2{
+    color: var(--blanc);
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.experiences .carrousel{
+    height: 50vh;
+
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+
+    /* Mozilla firefox */
+  scrollbar-color: var(--violet);
+  scrollbar-width: thin;
+}
+
+.carrousel::-webkit-scrollbar{
+    width: 5px;
+}
+
+div::-webkit-scrollbar-thumb {
+    background: var(--violet);
+    border-radius: 5px;
+  }
+
+
+.card2{
+    height: 300px;
+    width: 500px;
+    padding: 20px 35px;
+    background: #000; 
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card2 i{
+    color: var(--violet);
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px; 
+}
+.card2 p{
+    color: var(--blanc);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+text-align: justify;
+}
+
+.card2 p .CCCCF{
+        text-decoration: none;
+}
+
+.card2 .buttonCV{
+    background-color: var(--violet);
+    color: var(--blanc);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card2 .buttonCV:hover{
+    background-color: transparent;
+    border: 2px solid var(--violet);
+    cursor: pointer;
+}
+
+
+.dl{
+    text-decoration: none;
+    color: rgb(106, 91, 226);
+}
+
+
+
+    /*section formations*/
+
+.formation{
+    height: 100vh;
+    min-height: fit-content;
+    width: 100%;
+    padding: 10 0px; 
+    background-color: #000;
+}
+.formation .main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    justify-content: space-around;
+}
+
+
+.formation img{
+    position: relative;
+    left:60%;
+    top: 80px;
+    height: auto;
+    width: 500px;
+}
+.formation-text{
+    position: relative;
+    right:40%;
+    width: 550px;
+}
+.formation-text h2{
+    color: var(--blanc);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.formation-text h5{
+    color: var(--blanc);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    position: relative;
+    top: 50px;
+}
+.formation-text p{
+    color: var(--blanc);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    position: relative;
+    top: 80px;
+    text-align: justify;
+}
+
+
+.buttonf{
+    background-color: var(--violet);
+    color:#000;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+
+    list-style: none;
+    color: var(--blanc);
+
+    position: relative;
+    top: 80px;
+}
+.buttonf:hover{
+    background-color: transparent;
+    border: 2px solid  var(--violet);
+    color:var(--blanc);
+    cursor: pointer;
+}
+
+    /*Contact me*/
+
+.contact-me{
+    width: 100%;
+    height: 100vh;
+    min-height: fit-content;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-me p{
+    color: var(--blanc);
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 5%;
+}
+
+.formulaireC{
+    background-color: #000;
+    color: var(--blanc);
+
+    position: relative;
+    top: 15%;
+    width: 90%;
+    max-width: 700px;
+    height: 45%;
+    min-height: 400px;
+    padding: 25px;
+
+    border: var(--violet) solid 3px;
+    border-radius: 30px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+
+
+}
+.formulaireC p{
+    color: var(--blanc);
+    font-size: 25px;
+    font-weight: bold;
+
+    position: relative;
+    top: 5%;
+}
+
+.formulaireC form{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+
+    padding: 50px;
+    text-align: left;
+    align-items: center;
+
+
+}
+.formulaireC form div{
+    padding: 5px 0 0;
+}
+.formulaireC form input{
+    border-radius: 30px;
+    border: var(--violet solid 2px);
+
+    width: 200px;
+    height: 35px;
+}
+.formulaireC textarea{
+    border-radius: 30px;
+    border: var(--violet) solid 2px;
+}
+
+
+.formulaireC form .button-two{
+    background-color: var(--violet);
+    color: var(--blanc);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+
+    text-align: center;
+    width: 200px;
+    margin-top: 10px;
+}
+.formulaireC form .button-two:hover{
+    background-color: #000;
+    border: 2px solid var(--violet);
+    cursor: pointer;
+}
+
+.formulaireC .contentm input{
+    height: 40px;
+}
+
+    /*section footer*/
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    min-height: fit-content; 
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    color: var(--blanc);
+    font-size: 17px;
+    font-weight: bold;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--violet);
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: var(--blanc);
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+
+.end{
+    position: absolute;
+    color: var(--violet);
+    bottom: 35px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /***responsive***/
+
+@media screen and (max-width: 1110px){
+   
+/*navbar*/
+    .navabar{
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+
+    z-index: 100;
+    }
+    .navabar nav{
+    width: 100%;
+}
+    .navabar nav ul{
+    width: 100%;
+    display: inline;
+
+    flex-direction: column;
+    align-items: center;
+
+    visibility: collapse;
+   }
+   .navabar nav ul li{
+    display: flex;
+
+
+   }
+
+
+    #bars:checked ~ * .navbar nav ul {
+        visibility: visible;
+    }
+    
+
+
+/*acceuil*/
+   .hero{
+    width: 100%;
+    height: 100vh;
+    background: none;
+    background-color: #000
+   }
+
+   .hero .imagR img{
+    display: flex;
+    
+    width: 350px;
+    height: 370px;
+    
+    position: absolute;
+    top: 120px;
+    left: 40px;
+
+}
+   .content{
+    width: 100%;
+    top: 100px;
+   }
+   .content h4{
+    font-size: 15px;
+    position: relative;
+    top: 400px;
+   }
+   .content h1{
+    font-size: 34px;
+    position: relative;
+    top: 400px;
+   } 
+   .content .ejsdwj{
+    font-size: 15px;
+    position: relative;
+    top: 400px;
+   }
+
+/*a propos*/
+
+   .about .main{
+    width: 100%;
+    min-height: 100vh;
+    height: fit-content;
+
+   }
+   .about .main img{
+    position: relative;
+    top: 10%;
+    right: 3%;
+    width: 250px;
+    height: 250px;
+   }
+   .about .main .about-text{
+    width: 100%;
+   }
+   .about .main .about-text h2{
+    font-size: 35px;
+    position: relative;
+    top: 10%;
+    padding: 20px;
+   }
+   .about .main .about-text h5{ 
+    font-size: 15px; 
+    position: relative;
+    top: 10%;
+    padding: 0px 20px;  
+   }
+   .about .main .about-text p{
+    position: relative;
+    top: 10%;
+    padding: 0px 20px;
+    text-align: justify;
+   }
+
+/*compétences*/
+
+   .competences{
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+
+   }
+   .competences .title{
+    font-size: 35px;
+    position: relative;
+    top: 0px;
+    padding: 20px;
+   }
+   .cpts{
+    width: 100%;
+    display: block;
+    align-items: flex-start;
+    min-height: fit-content;
+
+    text-align: center;
+   }
+   .box{
+    width: 100%;
+    display: block;
+
+   }
+   .box h3{
+    display: none;
+   }
+
+   .card{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+
+   }
+   .card label{
+    font-size: 20px;
+   }
+
+   .pra input{
+    display: none;
+   }
+
+/*experiences*/
+
+   .experiences{
+    width: 100%;
+    height: 100vh;
+   }
+   
+   .experiences .title h2{
+    font-size: 35px;
+    top: 50px;
+    padding: 20px;
+
+    position: absolute;
+    left: 35px;
+   }
+
+
+   .card2{
+    width: 370px;
+    height: 370px;
+   }
+   .card2::-webkit-scrollbar{
+    overflow-y: hidden;
+   }
+}
+/*formations*/
+    
+   
+
+
+@media screen and (max-width: 905px){
+    .about .main img{
+        display: none;
+    }
+
+}
